@@ -1,0 +1,192 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation */
+.navbar {
+  background-color: #f8f9fa;
+  padding: 10px;
+}
+
+.navbar-brand img {
+  height: 30px;
+}
+
+.navbar-nav {
+  margin-top: 10px;
+}
+
+.nav-link {
+  color: #000;
+  margin-right: 20px;
+}
+
+.actions a {
+  margin-right: 10px;
+}
+
+/* Main Content */
+main {
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.signup-form input[type="email"] {
+  width: 300px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.signup-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+.banner img {
+  margin-top: 50px;
+  width: 200px;
+}
+
+.intro img {
+  margin-top: 50px;
+  width: 500px;
+}
+
+/* Features */
+.features {
+  margin-top: 50px;
+}
+
+.feature-card {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.feature-content {
+  flex: 1;
+}
+
+.feature-image img {
+  width: 400px;
+}
+
+.feature-content h3 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.feature-content p {
+  margin-top: 10px;
+}
+
+.feature-content a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Success Stories */
+.success-stories {
+  margin-top: 50px;
+}
+
+.overview h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.overview p {
+  margin-bottom: 20px;
+}
+
+.stories-carousel .carousel-item {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-media figure img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card-body h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card-body h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card-footer button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar-nav {
+    margin-top: 0;
+  }
+
+  main {
+    margin-top: 50px;
+  }
+
+  .signup-form input[type="email"],
+  .signup-form button {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .banner img {
+    width: 150px;
+  }
+
+  .intro img {
+    width: 300px;
+  }
+
+  .feature-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .feature-image img {
+    width: 300px;
+  }
+}
